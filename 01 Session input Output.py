@@ -223,5 +223,3 @@ if h== 1.69:
   print ('The BMI IS {:.02f}'.format(bmi))
 else :
   print('The BMI IS {:.01f}'.format(bmi)) 
-
-njjj
