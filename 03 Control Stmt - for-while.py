@@ -452,8 +452,52 @@ while i <= n:
 print("Sum of positive odd numbers:",s)
 
 
-# In[ ]:
+# In[21]:
 
+#Q. 23: Sets
+#QUESTION DESCRIPTION
 
+#Write a program to do basic set operations
+
+#Input:Two Sets
+
+#Output:
+#Result of Union,intersection,difference and symmetric difference operations on the given input
+
+#Refer sample input and output for formatting specification.
+#TEST CASE 1
+
+#INPUT
+#8
+#5
+#0
+#1
+#2
+#3
+#4
+#5
+#6
+#8
+#1
+#2
+#3
+#4
+#5
+#OUTPUT
+#[0, 1, 2, 3, 4, 5, 6, 8]
+#[1, 2, 3, 4, 5]
+#Union is: {0, 1, 2, 3, 4, 5, 6, 8}
+#Intersection is {1, 2, 3, 4, 5}
+#Difference is {0, 6, 8}
+
+l={8,5,0,1,2,3,4,5,6,8}
+r={1,2,3,4,5}
+print(list(l))
+print(list(r))
+print("Union is:",l|r)
+print("Intersection is",l&r)
+print("Difference is",l^r)
+
+#In []:
 
 
