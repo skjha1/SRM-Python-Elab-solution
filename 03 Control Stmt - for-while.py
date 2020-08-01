@@ -497,7 +497,38 @@ print(list(r))
 print("Union is:",l|r)
 print("Intersection is",l&r)
 print("Difference is",l^r)
+-----------------------------------------------------------------------------
+#Q. 30: Remove special
+#QUESTION DESCRIPTION
 
-#In []:
+#Write a program to remove the special characters form the given text
 
+Input:Text with special characters embedded in it.
+
+Output:
+Text without special characters
+
+Refer sample input and output for formatting specification.
+TEST CASE 1
+
+#INPUT
+#Elab tool]]]]----\\\\\\\'\\\\\\\'\\\\\\\'\\\\\\\'\\\\\\\'\\\\\\\'!()-{}::\\\\\\\'\\\\\\\"]<> 2017
+#OUTPUT
+##Elab tool 2017
+#TEST CASE 2
+
+#INPUT
+\\\\\\\'\\\\\\\'\\\\\\\'!()-[]{};:\\\\\\\'\\\\\\\"\\\\\\\\,<>./?@#$%^&*_~\\\\\\\'\\\\\\\'\\\\\\\'elab auto evaluation tool \\\\\\\'\\\\\\\'\\\\\\\'!()-[]{};:\\\\\\\'\\\\\\\"\\\\\\\\,<>./?@#$%^&*_~\\\\\\\'\\\\\\\'\\\\\\\'
+OUTPUT
+#elab auto evaluation tool
+################# Code #########################
+
+import re
+punct = ''']-'!()-{}::"<>,;/\?@#$%^&*_~[].'''
+inputstr = input()
+output=""
+for ch in inputstr:
+    if ch not in punct :
+        output=output+ch
+print (output)
 
