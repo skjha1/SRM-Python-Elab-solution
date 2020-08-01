@@ -289,8 +289,24 @@ print(u)
 print(str.count(" "))
 
 
-# In[ ]:
+# Replace me if you can
+
+#######  Code #####################
 
 
+s=input('')
+i=input('')
+print(s.replace(i,"#"))
 
+-----------------------------------------------------------------------
+
+# Q -  Check the Functions
+
+########Code #############
+string =str(input())
+print(string.isalpha())
+print(string.isdigit())
+print(string.istitle())
+print(string.isupper())
+print(string.islower())
 
