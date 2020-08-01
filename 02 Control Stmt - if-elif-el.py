@@ -400,5 +400,30 @@ elif (mth=='August') and (dt==15):
 elif (mth=='January') and (dt==26):
     print('Republic Day')
 else:
-    print('Sorry No National Holidays')
+    print('Sorry No National Holidays')	
 
+---------------------------------------------------------------------------------------------
+# "Q. 30: Game of Digits
+#QUESTION DESCRIPTION
+
+#Develop a program that reads a four-digit integer from the user and displays the sum of the digits in the number. For example, if the user enters 3141 then your program should display 3+1+4+1=9.
+#TEST CASE 1
+
+#INPUT
+#9091972
+#OUTPUT
+#The total sum of digits is: 37
+#TEST CASE 2
+
+#INPUT
+#25121988
+#OUTPUT
+#The total sum of digits is: 36 -m "
+
+n=int(input(""))
+num=0
+while n>0:
+      dig=n%10
+      num=num+dig
+      n=int(n/10)
+print('The total sum of digits is:',num)
