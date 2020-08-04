@@ -4,7 +4,7 @@
 # ### Input and Output
 # 
 # 
-# Q. 1: Multiplication Table
+# Q. 1 Multiplication Table
 # 
 # Write a python program to print the table of a given number
 # 
