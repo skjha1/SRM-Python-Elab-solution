@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# ### Input and Output
+#  Input and Output
 # 
 # 
 # Q. 1 Multiplication Table
