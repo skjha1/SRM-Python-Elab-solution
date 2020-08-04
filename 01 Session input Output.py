@@ -27,7 +27,7 @@ for i in range(1, 11):
 # 
 # Once these values are read, your program should compute and display the equivalent number of centimeters.
 # 
-# Hint: One foot is 12 inches. One inch is 2.54 centimeters.
+# Hint One foot is 12 inches. One inch is 2.54 centimeters.
 
 # In[10]:
 
